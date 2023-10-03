@@ -13,10 +13,36 @@
             <div class="col-md-4 p-3 text-center">
                 <div class="h1">SaleHub</div>
             </div>
-            <div class="col-md-4 p-3 text-end">
-                <div class="d-flex justify-content-center align-items-center">
-                    <a href="javascript:void(0)" class="d-inline-block text-decoration-none text-dark fw-bold pe-3 border-end">Account</a>
-                    <a href="javascript:void(0)" class="d-inline-block text-decoration-none text-dark ps-3" @click="cardBodyController">
+            <div class="col-md-4 p-3">
+                <div class="d-flex justify-content-center justify-content-md-end align-items-center">
+                    <div class="dropdown pe-4 border-end">
+                        <a href="javascript:void(0)" class="d-inline-block text-decoration-none text-dark fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end rounded-0 p-3">
+                            <li>
+                                <a class="dropdown-item mb-2 py-2" href="javascript:void(0)">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item mb-2 py-2" href="javascript:void(0)">
+                                    Registration Account
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item mb-2 py-2" href="javascript:void(0)">
+                                    checkout
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item py-2" href="javascript:void(0)">
+                                    My Wishlist
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0)" class="d-inline-block text-decoration-none text-dark ps-4" @click="cardBodyController">
                         <i class="bi bi-cart"></i> <span class="badge bg-dark text-white px-2 py-2 ms-2"> 0 Items </span>
                     </a>
                 </div>
