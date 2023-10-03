@@ -16,6 +16,18 @@
         }
 
     }
+    .footer-link{
+        text-decoration: none;
+        color: #888888;
+        display: block;
+        padding: 10px 20px;
+        transition: 0.3s all ease-in-out;
+
+        &:hover{
+            transition: 0.3s all ease-in-out;
+            background-color: #eeeeee;
+        }
+    }
 }
 
 .cart-body{
@@ -400,3 +412,4 @@
     }
 
 }
+

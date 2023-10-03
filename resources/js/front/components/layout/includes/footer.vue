@@ -1,6 +1,6 @@
 <template>
 
-    <footer class="container py-5">
+    <footer class="container py-5 nav-links">
         <div class="row py-5">
             <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-3">
                 <div class="h2 mb-4">
@@ -22,22 +22,22 @@
                 <div class="h3 mb-4">
                     Customer Support
                 </div>
-                <a href="javascript:void(0)" class="text-decoration-none text-secondary d-block mb-4">
+                <a href="javascript:void(0)" class="footer-link">
                     Customer Service
                 </a>
-                <a href="javascript:void(0)" class="text-decoration-none text-secondary d-block mb-4">
+                <a href="javascript:void(0)" class="footer-link">
                     Shipping and Delivery
                 </a>
-                <a href="javascript:void(0)" class="text-decoration-none text-secondary d-block mb-4">
+                <a href="javascript:void(0)" class="footer-link">
                     Returns
                 </a>
-                <a href="javascript:void(0)" class="text-decoration-none text-secondary d-block mb-4">
+                <a href="javascript:void(0)" class="footer-link">
                     Size Charts
                 </a>
-                <a href="javascript:void(0)" class="text-decoration-none text-secondary d-block mb-4">
+                <a href="javascript:void(0)" class="footer-link">
                     Email Signup
                 </a>
-                <a href="javascript:void(0)" class="text-decoration-none text-secondary d-block mb-4">
+                <a href="javascript:void(0)" class="footer-link">
                     Contact Us
                 </a>
             </div>
@@ -45,22 +45,22 @@
                 <div class="h3 mb-4">
                     Our Shop
                 </div>
-                <a href="javascript:void(0)" class="text-decoration-none text-secondary d-block mb-4">
+                <a href="javascript:void(0)" class="footer-link">
                     New Arrivals
                 </a>
-                <a href="javascript:void(0)" class="text-decoration-none text-secondary d-block mb-4">
+                <a href="javascript:void(0)" class="footer-link">
                     Top Trending
                 </a>
-                <a href="javascript:void(0)" class="text-decoration-none text-secondary d-block mb-4">
+                <a href="javascript:void(0)" class="footer-link">
                     Autumn Collection
                 </a>
-                <a href="javascript:void(0)" class="text-decoration-none text-secondary d-block mb-4">
+                <a href="javascript:void(0)" class="footer-link">
                     Back in Stock
                 </a>
-                <a href="javascript:void(0)" class="text-decoration-none text-secondary d-block mb-4">
+                <a href="javascript:void(0)" class="footer-link">
                     Bikini Tops
                 </a>
-                <a href="javascript:void(0)" class="text-decoration-none text-secondary d-block mb-4">
+                <a href="javascript:void(0)" class="footer-link">
                     Bikini Bottoms
                 </a>
             </div>
