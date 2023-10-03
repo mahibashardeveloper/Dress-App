@@ -12,7 +12,7 @@
                     <div class="h1 mb-4 text-uppercase">
                         Luxury Watch
                     </div>
-                    <a href="javascript:void(0)" class="btn bg-white text-dark px-4 border-0">
+                    <a href="javascript:void(0)" class="btn bg-white text-dark px-4 border-0 rounded-0">
                         Shop Now
                     </a>
                 </div>
@@ -26,7 +26,7 @@
                     <div class="h1 mb-4 text-uppercase">
                         New Arrivals
                     </div>
-                    <a href="javascript:void(0)" class="btn bg-white text-dark px-4 border-0">
+                    <a href="javascript:void(0)" class="btn bg-white text-dark px-4 border-0 rounded-0">
                         Shop Now
                     </a>
                 </div>
@@ -40,7 +40,7 @@
                     <div class="h1 mb-4 text-uppercase">
                         Sunglasses
                     </div>
-                    <a href="javascript:void(0)" class="btn bg-white text-dark px-4 border-0">
+                    <a href="javascript:void(0)" class="btn bg-white text-dark px-4 border-0 rounded-0">
                         Shop Now
                     </a>
                 </div>
@@ -612,7 +612,7 @@
                 <div class="pb-4 text-white">
                     <div class="h1 mb-3">LOUNGE</div>
                     <div class="h3 mb-3">NEW FOR 2022</div>
-                    <a href="javascript:void(0)" class="btn bg-white px-4">
+                    <a href="javascript:void(0)" class="btn bg-white px-4 text-dark border-0 rounded-0">
                         Shop Now
                     </a>
                 </div>

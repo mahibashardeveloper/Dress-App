@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{asset('source-code/owl.carousel/dist/assets/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('source-code/owl.carousel/dist/assets/owl.theme.default.min.css')}}">
     <script src="{{asset('source-code/owl.carousel/dist/owl.carousel.min.js')}}"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body id="app"></body>

@@ -68,7 +68,7 @@
                 <div class="h3 mb-4">
                     Newsletter
                 </div>
-                <div class="mb-4">
+                <div class="mb-4 text-secondary">
                     Get 15% off your first purchaxse! Plus, be the first to know about sales, new product launches and exclusive offers!
                 </div>
                 <form class="position-relative mb-4">
@@ -80,19 +80,19 @@
                     </div>
                 </form>
                 <div class="d-flex align-items-center justify-content-start">
-                    <a href="javascript:void(0)" class="text-decoration-none text-dark me-3">
+                    <a href="javascript:void(0)" class="text-decoration-none text-dark me-3" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Facebook link of SaleHub">
                         <i class="bi bi-facebook"></i>
                     </a>
-                    <a href="javascript:void(0)" class="text-decoration-none text-dark me-3">
+                    <a href="javascript:void(0)" class="text-decoration-none text-dark me-3" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Twitter-X link of SaleHub">
                         <i class="bi bi-twitter-x"></i>
                     </a>
-                    <a href="javascript:void(0)" class="text-decoration-none text-dark me-3">
+                    <a href="javascript:void(0)" class="text-decoration-none text-dark me-3" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Pinterest link of SaleHub">
                         <i class="bi bi-pinterest"></i>
                     </a>
-                    <a href="javascript:void(0)" class="text-decoration-none text-dark me-3">
+                    <a href="javascript:void(0)" class="text-decoration-none text-dark me-3" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Vimeo link of SaleHub">
                         <i class="bi bi-vimeo"></i>
                     </a>
-                    <a href="javascript:void(0)" class="text-decoration-none text-dark">
+                    <a href="javascript:void(0)" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Instagram link of SaleHub">
                         <i class="bi bi-instagram"></i>
                     </a>
                 </div>
@@ -108,7 +108,12 @@
 
         data(){ return{  } },
 
-        mounted() {  },
+        mounted() {
+
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+        },
 
         methods: {  }
 
