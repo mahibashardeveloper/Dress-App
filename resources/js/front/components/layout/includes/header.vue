@@ -11,7 +11,9 @@
                 </div>
             </div>
             <div class="col-md-4 p-3 text-center">
-                <div class="h1">SaleHub</div>
+                <router-link :to="{name: 'home'}" class="h1 text-decoration-none text-dark">
+                    SaleHub
+                </router-link>
             </div>
             <div class="col-md-4 p-3">
                 <div class="d-flex justify-content-center justify-content-md-end align-items-center">
@@ -21,24 +23,14 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end rounded-0 p-3 mt-3">
                             <li>
-                                <a class="dropdown-item mb-2 py-2" href="javascript:void(0)">
+                                <router-link :to="{name: 'login'}" class="dropdown-item mb-2 py-2">
                                     Login
-                                </a>
+                                </router-link>
                             </li>
                             <li>
-                                <a class="dropdown-item mb-2 py-2" href="javascript:void(0)">
+                                <router-link :to="{name: 'register'}" class="dropdown-item mb-2 py-2">
                                     Registration Account
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item mb-2 py-2" href="javascript:void(0)">
-                                    checkout
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item py-2" href="javascript:void(0)">
-                                    My Wishlist
-                                </a>
+                                </router-link>
                             </li>
                         </ul>
                     </div>

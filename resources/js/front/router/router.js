@@ -8,6 +8,18 @@ import layout from "../components/layout/layout.vue";
 
 import home from "../components/home/home.vue";
 
+// login ----- ----- ----- ----- ----- ----- ----- ----- -----
+
+import login from "../components/auth/login.vue";
+
+// register ----- ----- ----- ----- ----- ----- ----- ----- -----
+
+import register from "../components/auth/register.vue";
+
+// forget ----- ----- ----- ----- ----- ----- ----- ----- -----
+
+import forget from "../components/auth/forget.vue";
+
 // company name
 
 const Company_name = "SaleHub - ";
@@ -29,6 +41,18 @@ const routes = [
             // home
 
             {path: ROOT_URL + '/home', name: 'home', component: home, meta: {title: Company_name + 'home' } },
+
+            // login
+
+            {path: ROOT_URL + '/login', name: 'login', component: login, meta: {title: Company_name + 'login' } },
+
+            // register
+
+            {path: ROOT_URL + '/register', name: 'register', component: register, meta: {title: Company_name + 'register' } },
+
+            // forget
+
+            {path: ROOT_URL + '/forget', name: 'forget', component: forget, meta: {title: Company_name + 'forget' } },
 
         ],
 
