@@ -41,15 +41,15 @@
             </div>
         </div>
         <div class="d-flex justify-content-evenly align-items-center flex-wrap py-5 nav-links">
-            <a href="javascript:void(0)" class="link-hover">Dresses</a>
-            <a href="javascript:void(0)" class="link-hover">Shoes</a>
-            <a href="javascript:void(0)" class="link-hover">Denim Jacket</a>
-            <a href="javascript:void(0)" class="link-hover">Winter Coats</a>
-            <a href="javascript:void(0)" class="link-hover">Cardigans</a>
-            <a href="javascript:void(0)" class="link-hover">Blazers</a>
-            <a href="javascript:void(0)" class="link-hover">Sweater Dresses</a>
-            <a href="javascript:void(0)" class="link-hover">T-Shirts</a>
-            <a href="javascript:void(0)" class="link-hover">Accessories</a>
+            <router-link :to="{name: 'shop'}" class="link-hover">Dresses</router-link>
+            <router-link :to="{name: 'shop'}" class="link-hover">Shoes</router-link>
+            <router-link :to="{name: 'shop'}" class="link-hover">Denim Jacket</router-link>
+            <router-link :to="{name: 'shop'}" class="link-hover">Winter Coats</router-link>
+            <router-link :to="{name: 'shop'}" class="link-hover">Cardigans</router-link>
+            <router-link :to="{name: 'shop'}" class="link-hover">Blazers</router-link>
+            <router-link :to="{name: 'shop'}" class="link-hover">Sweater Dresses</router-link>
+            <router-link :to="{name: 'shop'}" class="link-hover">T-Shirts</router-link>
+            <router-link :to="{name: 'shop'}" class="link-hover">Accessories</router-link>
         </div>
         <div class="cart-body" :class="{active: isActiveCartBody}">
             <div class="cart-header">

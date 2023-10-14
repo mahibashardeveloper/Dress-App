@@ -20,6 +20,10 @@ import register from "../components/auth/register.vue";
 
 import forget from "../components/auth/forget.vue";
 
+// shop
+
+import shop from "../components/shop/shop.vue";
+
 // company name
 
 const Company_name = "SaleHub - ";
@@ -53,6 +57,10 @@ const routes = [
             // forget
 
             {path: ROOT_URL + '/forget', name: 'forget', component: forget, meta: {title: Company_name + 'forget' } },
+
+            // shop
+
+            {path: ROOT_URL + '/shop', name: 'shop', component: shop, meta: {title: Company_name + 'shop' } },
 
         ],
 
